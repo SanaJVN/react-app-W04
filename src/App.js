@@ -45,6 +45,8 @@ export default function App() {
       <div>
         {form}
         <ul>
+          <li>{`The weather conditions in ${city}:`}</li>
+          <br />
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>
           <li>Wind: {weather.wind}km/h</li>
