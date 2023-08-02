@@ -11,6 +11,10 @@ root.render(
   <div className="App">
     <h1>Weather App</h1>
     <App />
+    <h4>
+      <a href="https://github.com/SanaJVN/react-app-W04">Open-Source Code</a>,{" "}
+      by <a href="mailto:saanaa.jvn@gmail.com">Sana Javanshir</a>
+    </h4>
   </div>
 );
 
